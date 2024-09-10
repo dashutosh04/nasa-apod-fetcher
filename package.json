@@ -1,0 +1,24 @@
+{
+  "name": "nasa-apod-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js application for fetching data from NASA's APOD Api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js", 
+    "test": "node test.js"
+  },
+  "keywords": [
+    "nasa",
+    "apod",
+    "api",
+    "node.js",
+    "data-fetching"
+  ],
+  "author": "Ashutosh Das (github.com/dashutosh04)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
